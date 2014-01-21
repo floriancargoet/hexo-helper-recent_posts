@@ -1,0 +1,24 @@
+{
+  "name": "hexo-helper-recent_posts",
+  "version": "0.0.1",
+  "description": "Hexo helper that generates a list of recent posts",
+  "main": "index",
+  "keywords": [
+    "hexo",
+    "helper"
+  ],
+  "author": "Florian Cargoët",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/floriancargoet/hexo-helper-recent_posts.git"
+  },
+  "license": {
+    "type": "MIT"
+  },
+  "engines": {
+    "hexo": ">= 1.0.0"
+  },
+  "dependencies": {
+    "lodash": "~2.4.1"
+  }
+}
