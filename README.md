@@ -8,35 +8,25 @@
 npm install hexo-helper-recent_posts --save
 ```
 
-### Enable
+### Use in your theme
+Add: `<%- recent_posts({ count: 10 }) %>`
 
-Add `hexo-helper-recent_posts` to `plugins` in `_config.yml`.
-
-``` yaml
-plugins:
-- hexo-helper-recent_posts
+Default options :
 ```
-
-### Disable
-
-Remove `hexo-helper-recent_posts` from `plugins` in `_config.yml`.
-
-``` yaml
-plugins:
-- hexo-helper-recent_posts
+{
+    count: 5,
+    ulClass: 'recent_posts',
+    liClass: 'recent_post'
+}
 ```
 
 ### Update
-
-Execute the following command.
 
 ```
 npm update
 ```
 
 ### Uninstall
-
-Execute the following command. Don't forget to disable the plugin before uninstalling.
 
 ```
 npm uninstall hexo-helper-recent_posts

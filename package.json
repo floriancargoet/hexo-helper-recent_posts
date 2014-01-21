@@ -1,6 +1,6 @@
 {
   "name": "hexo-helper-recent_posts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Hexo helper that generates a list of recent posts",
   "main": "index",
   "keywords": [
